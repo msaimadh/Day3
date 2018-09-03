@@ -9,7 +9,6 @@ import com.capgemini.prog.DuplicateRemover;
 class DuplicateTest {
 
 	@Test
-	void test() {
 		void testDuplicateRemover() {
 			assertEquals("abc",DuplicateRemover.modify("abcabcabcabcaba"));
 			assertEquals("123",DuplicateRemover.modify("123123123123"));
